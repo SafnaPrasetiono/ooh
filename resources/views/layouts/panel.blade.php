@@ -34,7 +34,7 @@
         <div class="container">
             <a class="navbar-brand fw-bold" href="{{ route('index') }}">
                 <img src="{{ url('/images/logo/oohlogo.png') }}" alt="" height="46px" style="margin-top: -4px">
-                <div class="ms-3">
+                <div class="ms-3 navbar-brand-text">
                     <p class="navbar-text text-dark">Work and Holiday</p>
                     <small class="navbar-text-small text-secondary">PT OOH Kupu Kupu Global</small>
                 </div>
