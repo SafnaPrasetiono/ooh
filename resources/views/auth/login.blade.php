@@ -1,7 +1,7 @@
 @extends('auth.layouts.panel')
 
 @section('head')
-    <title>kopitu - Selemat datang di kerjajepang.com</title>
+    <title>OOH - Selamat datang di login</title>
 @endsection
 
 @section('pages')

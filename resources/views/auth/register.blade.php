@@ -1,7 +1,7 @@
 @extends('auth.layouts.panel')
 
 @section('head')
-<title>kopitu - Selamat datang di kerjajepang.com</title>
+<title>OOH - Pendaftaran akun OOH Kupu Kopu Global</title>
 @endsection
 
 @section('pages')

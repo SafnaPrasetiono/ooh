@@ -1,7 +1,7 @@
 @extends('auth.layouts.panel')
 
 @section('head')
-    <title>kerjajepang - reset password akun</title>
+    <title>OOH - Reset Akun OOH</title>
 @endsection
 
 @section('pages')

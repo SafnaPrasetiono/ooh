@@ -1,7 +1,7 @@
 @extends('auth.layouts.panel')
 
 @section('head')
-    <title>kopitu - Selemat datang di kopitu e-store</title>
+    <title>OOH - Reset akun ooh</title>
 @endsection
 
 @section('pages')
