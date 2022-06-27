@@ -1,0 +1,115 @@
+.navbar{
+    transition: linear all 0.3s;
+    height: 70px!important;
+}
+.bg-navbar{
+    background-color: #ffffff;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand .navbar-text{
+    margin: 0px 0px -10px 0px;
+    padding: 0;
+    font-weight:400;
+    font-size: 1.5rem;
+    /* line-height: 0px; */
+}
+.navbar-brand .navbar-text-small{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+/* custom text ellipsis */
+.text-ellipsis-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-ellipsis-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-ellipsis-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-ellipsis-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text-ellipsis-5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* balon */
+.menu-balloon {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1.5rem;
+}
+
+.btn-menu-fixed{
+    width: 54px;
+    height: 54px;
+    padding: 0;
+    border: 2px solid #25D366;
+    color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.btn-menu-fixed:hover {
+    transition: linear all 0.3s;
+    transform: rotate(360deg);
+    color: #25D366;
+}
+
+
+.footer{
+    background-color: #8b0000;
+}
+
+.dropdown .dropdown-menu {
+    transition: linear all 0.3s;
+}
+@media(min-width: 992px){
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        /* margin-top: 0; */
+     }
+}
+
+@media(max-width: 992px){
+    .navbar{
+        background-color: #ffffff;
+        min-height: 75px;
+        height: auto!important;
+        max-height: auto!important;
+    }
+}
