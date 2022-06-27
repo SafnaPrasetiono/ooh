@@ -77,10 +77,7 @@
                 <div class="text-center text-lg-start">
                     <h3>Tentang Kami</h3>
                     <hr class="soft mx-auto mx-lg-0" style="width: 24%">
-                    <p class="fs-5">PT. Ooh Kupu- kupu Global adalah perusahaan yang bergerak di bidang agen perjalanan
-                        (Tour and Travel) yang berdiri sejak tahun 2009 dengan nomor ijin AHU-AH.01.03.0989609. Saat ini
-                        berspesialisasi dalam bidang layanan satu atap Visa Berlibur dan Bekerja atau Work and Holiday
-                        Visa Australia (WHV).</p>
+                    <p class="fs-5">PT OOH KUPU-KUPU GLOBAL adalah perusahaan yang bergerak di bidang agent perjalanan (tour and travel) yang berdiri sejak tahun 2009 dengan nomor izin AHU-AHA.01.03.0989609. Dan saat ini berfokus dalam bidang pelayanan one step service pengurusan visa, pelatihan dan bekerja ke Australia.</p>
                 </div>
             </div>
             <div class="col-7 col-lg-4 mx-auto order-1 order-lg-2">
@@ -103,24 +100,18 @@
             </div>
             <div class="col-12 col-lg-7">
                 <p class="mb-0 fs-5">
-                    PT. Ooh Kupu-kupu Global telah memiliki perusahaan yang berdomisili di Australia, yaitu Ooh Butterfly Pty Ltd (Kunjungi: www.jobinternship.com.au) yang merupakan manifestasi dari keseriusan layanan perusahaan yang profesionalisme bekerja dan bertujuan untuk memperluas jaringan dan menjadi Pusat Informasi, Instruksi, dan Arahan tentang situasi di Australia dan memberikan solusi untuk tinggal lebih lama di Australia.
+                    PT OOH KUPU-KUPU GLOBAL telah memiliki perusahaan yang berdomisili di Australia yaitu Ooh Butrerfly Pty Ltd yang merupakan manifestasi dari keseriusan layanan perusahaan yang professional untuk bertujuan memperluas jaringan dan menjadi pusat informasi tentang Australia dan dapat memberikan solusi untuk tinggal lebih lama di Australia.
                 </p>
             </div>
         </div>
         <p class="fs-5">
-            PT. Ooh Kupu- kupu Global adalah perusahaan yang telah sangat berpengalaman dalam mengelola dan menunjuk
-            pengguna Visa Kerja dan Liburan Australia dari tahun 2009 hingga saat ini dan selain itu, PT. Ooh Kupu- kupu
-            Global telah bekerja dengan Konsultan Imigrasi Australia, Lembaga Pelatihan dan beberapa Pengusaha Pengguna
-            USER di Australia. Sehingga dapat memberikan layanan komplite dan membantu anda bagi yang ingin mengikuti
-            program work and holiday visa australia .
+            PT OOH KUPU-KUPU GLOBAL adalah perusahaan yang telah berpengalaman dalam pengurusan visa dan pemberian informasi bekerja di Australia dari tahun 2009 hingga saat ini. 
         </p>
         <p class="fs-5">
-            Saat ini PT. Ooh Kupu- kupu Global berkedudukan di jakarta dan telah membuka layanan pendaftaran online yang
-            dapat di akses melalui website www.ooh.co.id , segala macam informasi dan proses dapat anda cek pada website
-            kami .
-            Kami menyediakan banyak layanan jasa untuk anda yang ingin mengikuti program Work and Holiday Australia
-            seperti (layanan pengurusan Visa, layanan transport dari Airport ke hotel , layanan penyediaan tempat
-            tinggal , layanan pendaftaran online SRPI, Layanan rekomendasi job di australia , dll.
+            PT OOH KUPU-KUPU GLOBAL telah bekerja sama dengan konsultan imigrasi Australia, Lembaga pelatihan, pengguna/user di Australia sehingga dapat memberikan layanan yang komplit dan dapat membantu anda mengikuti program ke Australia.
+        </p>
+        <p class="fs-5">
+            Saat ini PT OOH KUPU-KUPU GLOBAL berkedudukan di Jakarta dan telah membuka layanan pendaftaran online dan dapat diakses melalui website www.ooh.co.id. Segala macam informasi dapat anda cek pada website kami. Kami menyediakan banyak layanan jasa untuk anda yang ingin mengikuti program ke Australia seperti (layanan pengurusan visa, layanan transport, layanan tempat tinggal, layanan rekomendasi job).
         </p>
     </div>
 </div>
@@ -132,14 +123,13 @@
                 <div class="mb-3 mb-lg-5">
                     <p class="fs-1">Visi Kami</p>
                     <p class="fs-5 d-flex">
-                        <i class="fas fa-check-circle fa-sm fa-fw mt-2 me-2"></i> Mewujudkan Mimpi Anda Menjadi Nyata
+                        <i class="fas fa-check-circle fa-sm fa-fw mt-2 me-2"></i> Mewujudkan mimpi anda menjadi nyata.
                     </p>
                 </div>
                 <div class="mb-3">
                     <p class="fs-1">Mtto</p>
                     <p class="fs-5 d-flex">
-                        <i class="fas fa-check-circle fa-sm fa-fw mt-2 me-2"></i> Berfikir, Bertindak, Smart & Sukses
-                        dengan Hati Memberi
+                        <i class="fas fa-check-circle fa-sm fa-fw mt-2 me-2"></i> Berpikir, bertindak, smart dan sukses dengan hati memberi.
                     </p>
                 </div>
             </div>
@@ -147,27 +137,20 @@
                 <p class="fs-1 mb-1">Misi Kami</p>
                 <div class="fs-5">
                     <p class="d-flex align-items-top">
-                        <i class="fas fa-check-circle fa-sm fa-fw mt-2 me-2"></i>Melayani
-                        Sepenuh Hati & Profesional
+                        <i class="fas fa-check-circle fa-sm fa-fw mt-2 me-2"></i> Melayani sepenuh hati dan professional.
                     </p>
                     <p class="d-flex align-items-top">
-                        <i class="fas fa-check-circle fa-sm fa-fw mt-2 me-2"></i>Pasangan
-                        Sejati Anda dalam Mencari Pekerjaan di Luar Negeri
+                        <i class="fas fa-check-circle fa-sm fa-fw mt-2 me-2"></i> Pasangan sejati anda dalam mencari kerja.
                     </p>
                     <p class="d-flex align-items-top">
-                        <i class="fas fa-check-circle fa-sm fa-fw mt-2 me-2"></i>Menjadi
-                        Perusahaan One Step Service dalam pengurusan Visa Austrapa
-                    </p>
-                    <p class="d-flex align-items-top">
-                        <i class="fas fa-check-circle fa-sm fa-fw mt-2 me-2"></i>Memberikan informasi lengkap tentang
-                        australia
+                        <i class="fas fa-check-circle fa-sm fa-fw mt-2 me-2"></i> Menjadi perusahaan one step service.
                     </p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-</div>
+
 
 
 {{-- <div class="py-5">

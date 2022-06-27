@@ -11,6 +11,8 @@ use App\Http\Controllers\admin\newsAdmin;
 use App\Http\Controllers\admin\profileAdmin;
 use App\Http\Controllers\admin\testimonialAdmin;
 use App\Http\Controllers\auth\authAdmin;
+use App\Http\Controllers\auth\authMedia;
+use App\Http\Controllers\auth\authUser;
 use App\Http\Controllers\pages\eventController;
 use App\Http\Controllers\pages\indexController;
 use App\Http\Controllers\pages\lokerController;
@@ -51,6 +53,19 @@ Route::post('/beranda/pelatihan/pendaftaran/simpan', [trainingController::class,
 Route::get('/beranda/pelayanan/nt-farmer', [serviceController::class, 'farmer'])->name('service.ntfarmer');
 Route::get('/beranda/pelayanan/hospitality', [serviceController::class, 'hospitality'])->name('service.hospitality');
 
+// router for users
+Route::get('/beranda/masuk', [authUser::class, 'login'])->name('login');
+Route::post('/beranda/masuk/post', [authUser::class, 'loginPost'])->name('login.post');
+Route::get('/beranda/daftar', [authUser::class, 'register'])->name('register');
+Route::post('/beranda/daftar/post', [authUser::class, 'registerPost'])->name('register.post');
+Route::get('/daftar/validasi/key={key}', [authUser::class, 'registerActived'])->name('register.validation');
+Route::get('/password/reset/', [authUser::class, 'password'])->name('password.set');
+Route::post('/password/reset/akun/', [authUser::class, 'passwordPost'])->name('password.post');
+Route::get('/password/reset/akun/{key}', [authUser::class, 'passwordReset'])->name('password.post.reset');
+Route::post('/password/reset/action/', [authUser::class, 'passwordResetAction'])->name('password.post.reset.action');
+// auth user login with Google API
+Route::get('/login/auth/google/', [authMedia::class, 'redirectToGoogle'])->name('login.google');
+Route::get('/login/auth/google/callback', [authMedia::class, 'handleGoogleCallback']);
 
 // router for admins
 Route::get('/admin/login', [authAdmin::class, 'login'])->name('admin.login');

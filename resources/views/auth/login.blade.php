@@ -1,14 +1,14 @@
 @extends('auth.layouts.panel')
 
 @section('head')
-    <title>OOH - Selamat datang di login</title>
+    <title>OOH - Selamat datang di halaman masuk</title>
 @endsection
 
 @section('pages')
     <div class="box-auth">
         <div class="box-head">
             <h3 class="text-orange fw-bold">MASUK</h3>
-            <p class="mb-0">Selamat datang di Kerja Jepang</p>
+            <p class="mb-0">PT. OOH Kupu Kupu Global</p>
         </div>
         <div class="box-body">
             <form method="POST" action="{{ route('login.post') }}">

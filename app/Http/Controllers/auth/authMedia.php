@@ -5,6 +5,7 @@ namespace App\Http\Controllers\auth;
 use App\Models\User;
 use App\Http\Controllers\Controller;
 use App\Models\users_validation;
+use App\Models\UserValidation;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Laravel\Socialite\Facades\Socialite;
@@ -51,7 +52,7 @@ class authMedia extends Controller
                 'avatar'   => $fotoname
             ]);
 
-            users_validation::create([
+            UserValidation::create([
                 'id_users' => $user->id_users,
                 'email'    => $data->email,
                 'key'      => $Vkey,
@@ -59,7 +60,7 @@ class authMedia extends Controller
             ]);
 
             $foto = file_get_contents($data->avatar);
-            file_put_contents(public_path('images/avatar/user/' .  $fotoname), $foto);
+            file_put_contents(public_path('/images/avatar/user/' .  $fotoname), $foto);
         }
         Auth::guard("user")->login($user);
     }

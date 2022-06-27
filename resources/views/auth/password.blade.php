@@ -7,7 +7,7 @@
 @section('pages')
     <div class="box-auth">
         <div class="box-head text-center">
-            <img src="{{ url('/images/banner/password.png') }}" alt="" width="70%" class="mb-4">
+            <img src="{{ url('/images/elements/password.png') }}" alt="" width="70%" class="mb-4">
             <h3 class="text-orange fw-bold">LUPA PASSWORD</h3>
             <p class="mb-0">Tidak perlu khawatir, akun kamu tetap aman <br> Rubah password dan amankan akun kamu</p>
         </div>
@@ -23,7 +23,7 @@
                       </div>
                     @enderror
                 </div>
-                <button type="submit" class="btn btn-primary form-control">UBAH PASSWORD</button>
+                <button type="submit" class="btn btn-outline-danger form-control">UBAH PASSWORD</button>
             </form>
         </div>
     </div>    

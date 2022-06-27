@@ -8,7 +8,7 @@
 <div class="box-auth">
     <div class="box-head">
         <h3 class="text-orange fw-bold">DAFTAR</h3>
-        <p class="mb-0">Selamat datang di Kerja Jepang</p>
+        <p class="mb-0">PT. OOH KUPU KUPU GLOBAL</p>
     </div>
     <div class="box-body">
         <form method="POST" action="{{ route('register.post') }}">

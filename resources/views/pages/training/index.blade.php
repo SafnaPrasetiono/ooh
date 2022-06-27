@@ -14,7 +14,6 @@
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     }
-
     .img-icons {
         width: 120px;
         margin: auto;
@@ -25,13 +24,30 @@
         background: linear-gradient(124deg, rgba(0, 130, 255, 1) 0%, rgba(6, 137, 241, 1) 75%, rgba(1, 123, 252, 1) 100%);
     }
 
+    .btn-pills-menus{
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .img-training{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .btn-pills-menus:hover > .img-training{
+        transform: scale(1.2s);
+    }
+
     @media(max-width: 768px) {
         .banner-elementor {
             background: #f85032;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to top, #e73827, #f8d7da);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to top, #e73827, #f8d7da);
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to top, #e73827, #f8d7da);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to top, #e73827, #f8d7da);
         }
     }
 </style>
@@ -57,7 +73,63 @@
     </div>
 </div>
 
-<div class="py-4">
+<div class="py-5">
+    <div class="container">
+        <div class="d-block py-3 mb-3">
+            <h2 class="fw-bold">Pelatihan Tersedia</h2>
+            <p class="mb-o">Pelatiahan profesional PT. OOH Kupu Kupu Global</p>
+        </div>
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="" class="btn-pills-menus">
+                    <div class="d-flex justify-content-center align-items-center position-relative ratio ratio-21x9 rounded overflow-hidden shadow-sm">
+                        <div class="img-training" style="background-image: url('/images/elements/training/bartender.png');">
+                        </div>
+                        <h3 class="fw-light text-white d-block position-relative p-3">Bartender</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="" class="btn-pills-menus">
+                    <div class="d-flex justify-content-center align-items-center position-relative ratio ratio-21x9 rounded overflow-hidden shadow-sm">
+                        <div class="img-training" style="background-image: url('/images/elements/training/housekeeping.png');">
+                        </div>
+                        <h3 class="fw-light text-white d-block position-relative p-3">Housekeeping</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="" class="btn-pills-menus">
+                    <div class="d-flex justify-content-center align-items-center position-relative ratio ratio-21x9 rounded overflow-hidden shadow-sm">
+                        <div class="img-training" style="background-image: url('/images/elements/training/waiters.png');">
+                        </div>
+                        <h3 class="fw-light text-white d-block position-relative p-3">Waiters</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="" class="btn-pills-menus">
+                    <div class="d-flex justify-content-center align-items-center position-relative ratio ratio-21x9 rounded overflow-hidden shadow-sm">
+                        <div class="img-training" style="background-image: url('/images/elements/training/fo.png');">
+                        </div>
+                        <h3 class="fw-light text-white d-block position-relative p-3">Reseptiont</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="" class="btn-pills-menus">
+                    <div class="d-flex justify-content-center align-items-center position-relative ratio ratio-21x9 rounded overflow-hidden shadow-sm">
+                        <div class="img-training" style="background-image: url('/images/elements/training/cook.png');">
+                        </div>
+                        <h3 class="fw-light text-white d-block position-relative p-3">Cook</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- <div class="py-4">
     <div class="container">
         <div class="row g-4">
             <div class="col-12 col-md-4">
@@ -95,9 +167,9 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
-<div class="py-4">
+{{-- <div class="py-4">
     <div class="container">
         <div class="d-flex align-items-center mb-4">
             <div>
@@ -149,14 +221,10 @@
                     <i class="far fa-check-circle text-primary mt-1"></i>
                     <span class="ms-2">Mendapatkan pengajar langsung dari jepang</span>
                 </div>
-                {{-- <div class="d-flex align-items-start fs-5 mb-3">
-                    <i class="far fa-check-circle text-primary mt-1"></i>
-                    <span class="ms-2">Garansi mengulang pendidikan gratis sampai lolos Ujian</span>
-                </div> --}}
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 <div class="py-5 alert-secondary">
     <div class="container py-3">
@@ -190,48 +258,6 @@
         </div>
     </div>
 </div>
-
-{{-- <div class="py-5">
-    <div class="container py-4">
-        <div class="row gy-4 align-items-center justify-content-center">
-            <div class="col-12 col-md-6 order-2 order-md-1">
-                <h3 class="mb-3">SPECIFIED SKILLED WORKER (SSW)</h3>
-                <hr class="soft" style="width: 100px">
-                <p>SSW / Tokutei Ginou adalah Status visa/ijin tinggal bagi warga negara asing di Jepang yang mulai
-                    berlaku sejak 1 April 2019.Tokutei Ginou sacara harfiah memiliki arti Specific Technical Skill Visa
-                    atau Visa Kerja Keahlian Khusus, sekarang lebih dikenal dengan Visa TG/SSW.</p>
-                <p>Pemegang visa SSW dapat bekerja diperusahaan Jepang dengan hak dan kewajiban yang sama dengan pekerja
-                    Jepang.</p>
-                <a href="#" target="_blank" class="btn btn-outline-primary btn-lg px-5">
-                    Gabung
-                </a>
-            </div>
-            <div class="col-8 col-md-6 order-1 order-md-2">
-                <img src="{{ url('/images/elements/link-lumbungdeso.png') }}" alt="" class="img-fluid">
-            </div>
-        </div>
-    </div>
-</div> --}}
-
-{{-- <div class="py-5 elemtor-dana">
-    <div class="container">
-        <div class="row g-4 align-items-center">
-            <div class="col-12 col-md-6 order-2 order-md-1">
-                <div class="text-center text-md-start text-white">
-                    <p class="fs-3 text-capitalize mb-1">Mau ikut program karantina tapi tak punya uang?
-                    </p>
-                    <p class="fs-3 text-capitalize mb-5">jangan khawatir kami menyediakan pinjaman untuk ikut program
-                        pelatihan karantina</p>
-                    <a href="{{ route('training.register') }}"
-                        class="btn btn-outline-light rounded-0 btn-lg px-5">Daftar Sekarang</a>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 order-1 order-md-2">
-                <img src="{{ url('/images/elements/dana-blue.png') }}" class="img-fluid" alt="">
-            </div>
-        </div>
-    </div>
-</div> --}}
 
 <div class="py-4 alert-danger">
     <div class="container py-5">

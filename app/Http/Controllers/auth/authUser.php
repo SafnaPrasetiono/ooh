@@ -3,8 +3,9 @@
 namespace App\Http\Controllers\auth;
 
 use App\Http\Controllers\Controller;
+use App\Mail\passwordReset;
 use App\Mail\resetPassword;
-use App\Mail\verifikasi;
+use App\Mail\verification;
 use App\Models\User;
 use App\Models\UserValidation;
 use Illuminate\Http\Request;
@@ -99,7 +100,7 @@ class authUser extends Controller
                     'username' => $request->username,
                     'key' => $key
                 ];
-                Mail::to($request->email)->send(new verifikasi($details));
+                Mail::to($request->email)->send(new verification($details));
                 $user = User::create([
                     'username' => $request->username,
                     'slug' => $slug,
@@ -173,7 +174,7 @@ class authUser extends Controller
                     'email' => $email,
                     'key' => $key
                 ];
-                Mail::to($request->email)->send(new resetPassword($details));
+                Mail::to($request->email)->send(new passwordReset($details));
                 UserValidation::where('email', $request->email)->update([
                     'key' => $key
                 ]);

@@ -14,7 +14,7 @@
 
     <meta name="msapplication-navbutton-color" content="#dd894c" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#dd894c" />
-    <link rel="icon" type="image/png" href="{{asset('/images/logo/kopitu-estore.png')}}" />
+    <link rel="icon" type="image/png" href="{{asset('/images/logo/ooh.png')}}" />
 
     @yield('head')
     <link rel="stylesheet" href="{{ url('/dist/app/css/app.css') }}">
@@ -96,17 +96,17 @@
                     </li>
                     @else
                     <li class="nav-item d-inline d-lg-none">
-                        <a class="nav-link link-primary" href="#">Daftar</a>
+                        <a class="nav-link link-primary" href="{{ route('register') }}">Daftar</a>
                     </li>
                     <li class="nav-item d-inline d-lg-none">
-                        <a class="nav-link link-primary" href="#">Login</a>
+                        <a class="nav-link link-primary" href="{{ route('login') }}">Masuk</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#"
+                        <a href="{{ route('register') }}"
                             class="btn btn-outline-danger rounded-pill d-none d-lg-inline-block px-4 mx-2">Daftar</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="btn btn-danger rounded-pill d-none d-lg-inline-block px-4">Masuk</a>
+                        <a href="{{ route('login') }}" class="btn btn-danger rounded-pill d-none d-lg-inline-block px-4">Masuk</a>
                     </li>
                     @endauth
                 </ul>
@@ -127,10 +127,10 @@
                             <span class="fw-bold fs-5 fw-bold">OOH Work and Holiday</span>
                             <hr class="soft" width="50px">
                             <div class="pe-0 pe-md-5">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptate id eaque nobis obcaecati, inventore, tempora aspernatur illum libero architecto nulla eveniet dolorem temporibus illo earum animi! Voluptatem, veritatis obcaecati?</p>
+                                <p>Website ooh.co.id dibuat untuk memberikan kemudahan bagi calon pekerja migran Indonesia khususnya Bali untuk memberikan informasi terbaru seputar Job di Australia dan mempermudah dalam pendaftaran kandidat mengenai penyaluran pekerja migran ke Australia dari Provinsi Bali, Nasional, maupun Internasional</p>
                                 <div class="d-flex mb-2">
                                     <i class="fas fa-phone fa-fw"></i>
-                                    <p class="mb-0 ms-2">+62 000-0000-0000</p>
+                                    <p class="mb-0 ms-2">+62 813-1173-6178</p>
                                 </div>
                                 <div class="d-flex mb-2">
                                     <i class="fas fa-envelope fa-fw"></i>
@@ -208,7 +208,7 @@
     </footer>
 
     <div class="menu-balloon">
-        <a class="btn btn-menu-fixed" href="https://api.whatsapp.com/send?phone=6288229885435" target="_blank">
+        <a class="btn btn-menu-fixed" href="https://api.whatsapp.com/send?phone=6281311736178" target="_blank">
             <i class="fab fa-whatsapp fa-2x fa-fw"></i>
         </a>
     </div>

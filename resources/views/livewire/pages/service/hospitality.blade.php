@@ -7,7 +7,7 @@
     </div>
     <hr class="soft">
     <div class="d-block mb-3">
-        <div class="row">
+        <div class="row g-3">
             @foreach ($data as $item)
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
