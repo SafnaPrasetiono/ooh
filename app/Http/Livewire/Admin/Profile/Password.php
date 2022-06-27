@@ -35,7 +35,7 @@ class Password extends Component
             session()->flash('error', 'Oops, password dan konfrimasi password tidak sama!');
         } else {
             $data = Admin::find($id);
-            $data->password = encrypt($this->password);
+            $data->password = bcrypt($this->password);
             if($data->save()){
                 session()->flash('success', 'Password berhasil dirubah!');
             }else{
