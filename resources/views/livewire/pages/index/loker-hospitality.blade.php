@@ -6,7 +6,7 @@
                     <h4 class="fw-bold mb-0">Hospitality</h4>
                     <p class="mb-0 text-secondary">Yuk, cari pekerjaan yang sesuai dengan kamu</p>
                 </div>
-                <a href="#" class="btn btn-outline-primary rounded-pill py-1 ms-auto">
+                <a href="{{ route('service.hospitality') }}" class="btn btn-outline-primary rounded-pill py-1 ms-auto">
                     <span class="text-nowrap">Semua <i class="fas fa-angle-right fa-sm fa-fw"></i></span>
                 </a>
             </div>
