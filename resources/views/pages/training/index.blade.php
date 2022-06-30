@@ -63,8 +63,9 @@
             </div>
             <div class="col-12 col-md-6 order-2 order-md-1">
                 <div class="text-center text-md-start ">
-                    <p class="display-5 text-capitalize text-white mb-5">Program pelatihan Karantina sebagai bekal kerja
-                        di australia</p>
+                    <p class="display-5 text-capitalize text-white mb-5">
+                        PROGRAM PELATIHAN STANDAR AUSTRALIA
+                    </p>
                     <a href="{{ route('training.register') }}"
                         class="btn btn-outline-light rounded-0 btn-lg px-5">Daftar Sekarang</a>
                 </div>
@@ -79,7 +80,7 @@
             <h2 class="fw-bold">Pelatihan Tersedia</h2>
             <p class="mb-o">Pelatiahan profesional PT. OOH Kupu Kupu Global</p>
         </div>
-        <div class="row g-3">
+        <div class="row g-3 mb-5">
             <div class="col-12 col-md-6 col-lg-4">
                 <a href="" class="btn-pills-menus">
                     <div class="d-flex justify-content-center align-items-center position-relative ratio ratio-21x9 rounded overflow-hidden shadow-sm">
@@ -229,7 +230,7 @@
 <div class="py-5 alert-secondary">
     <div class="container py-3">
         <div class="d-block text-center mb-3">
-            <p class="fs-5 fw-bold text-uppercase mb-0">Program karantina</p>
+            <p class="fs-5 fw-bold text-uppercase mb-0">PROGRAM PELATIHAN</p>
             <p class="card-text">Tingkatkan kemampuan kamu dan dapatkan sertifikat</p>
         </div>
         <div class="d-block text-center py-4">
@@ -246,7 +247,7 @@
                 </div>
                 <div class="col-6 col-md-4">
                     <p class="mb-1 fw-bold">Waktu Belajar</p>
-                    <p class="mb-0">Sabtu - jum'at, 08.00–17.00 WIB</p>
+                    <p class="mb-0">Sabtu - jum'at <br> 08.00–17.00 WIB</p>
                 </div>
             </div>
         </div>
@@ -264,13 +265,13 @@
         <div class="d-flex align-items-center mb-4">
             <div>
                 <h4 class="fw-bold">Bagaimana Cara Mendaftar</h4>
-                <p class="mb-0 text-secondary">Yuk simak cara mendaftar untuk pemula jepang.com</p>
+                <p class="mb-0 text-secondary">Yuk simak cara mendaftar untuk yang mengikuti pelatihan</p>
             </div>
             <div class="d-none d-md-flex justify-content-center justify-content-md-end ms-auto">
-                <button class="customPrevBtn btn btn-outline-primary p-2 me-2" type="button">
+                <button class="customPrevBtn btn btn-outline-danger p-2 me-2" type="button">
                     <i class="fas fa-angle-left fa-lg fa-fw"></i>
                 </button>
-                <button class="customNextBtn btn btn-outline-primary p-2" type="button">
+                <button class="customNextBtn btn btn-outline-danger p-2" type="button">
                     <i class="fas fa-angle-right fa-lg fa-fw"></i>
                 </button>
             </div>
@@ -279,15 +280,15 @@
             <div class="item" style="width: 300px;">
                 <div class="card pb-4">
                     <div class="card-body text-center px-4" style="height: 18rem">
-                        <img src="{{ url('/images/icons/comers/1.jpg') }}" alt="1" class="w-50 mx-auto">
-                        <p class="fs-5 fw-bold text-center">MASUK</p>
+                        <img src="{{ url('/images/icons/daftar.png') }}" alt="2" class="w-50 mx-auto mb-3">
+                        <p class="fs-5 fw-bold text-center">KLIK DAFTAR</p>
                         <p class="card-text">
-                            Kamu harus memiliki akun kerjajepang.com silahkan daftar telebih dahulu
+                            Pada halaman ini terdapat button daftar di atas silangkan klik button daftar pelatihan
                         </p>
                     </div>
                     <div class="py-2">
                         <span
-                            class="d-flex align-items-center justify-content-center fs-5 mx-auto bg-primary text-white fw-bold rounded-circle"
+                            class="d-flex align-items-center justify-content-center fs-5 mx-auto alert-danger text-danger fw-bold rounded-circle"
                             style="width: 46px; height: 46px;">1</span>
                     </div>
                 </div>
@@ -295,15 +296,15 @@
             <div class="item" style="width: 300px;">
                 <div class="card pb-4">
                     <div class="card-body text-center px-4" style="height: 18rem">
-                        <img src="{{ url('/images/icons/comers/2.jpg') }}" alt="2" class="w-50 mx-auto">
-                        <p class="fs-5 fw-bold text-center">PILIH</p>
+                        <img src="{{ url('/images/icons/form.png') }}" alt="3" class="w-50 mx-auto mb-3">
+                        <p class="fs-5 fw-bold text-center">ISI FORM</p>
                         <p class="card-text">
-                            Pada halaman ini terdapat button daftar di atas silangkan klik button daftar pelatihan
+                            Pengisian form harus sesuai dengan informasi terkait data diri kamu pribadi
                         </p>
                     </div>
                     <div class="py-2">
                         <span
-                            class="d-flex align-items-center justify-content-center fs-5 mx-auto bg-primary text-white fw-bold rounded-circle"
+                            class="d-flex align-items-center justify-content-center fs-5 mx-auto alert-danger text-danger fw-bold rounded-circle"
                             style="width: 46px; height: 46px;">2</span>
                     </div>
                 </div>
@@ -311,16 +312,15 @@
             <div class="item" style="width: 300px;">
                 <div class="card pb-4">
                     <div class="card-body text-center px-4" style="height: 18rem">
-                        <img src="{{ url('/images/icons/comers/3.jpeg') }}" alt="3" class="w-50 mx-auto">
-                        <p class="fs-5 fw-bold text-center">FORM</p>
+                        <img src="{{ url('/images/icons/buyer.png') }}" alt="4" class="w-50 mx-auto mb-3">
+                        <p class="fs-5 fw-bold text-center">BAYAR</p>
                         <p class="card-text">
-                            Silahkan isi form informasi terkait kamu dan pemilihan sertifikat yang tertera di
-                            pendaftaran untuk pemula baru
+                            Pada pengisian form kamu harus upload bukti pembayaran yang harus diselesaikan
                         </p>
                     </div>
                     <div class="py-2">
                         <span
-                            class="d-flex align-items-center justify-content-center fs-5 mx-auto bg-primary text-white fw-bold rounded-circle"
+                            class="d-flex align-items-center justify-content-center fs-5 mx-auto alert-danger text-danger fw-bold rounded-circle"
                             style="width: 46px; height: 46px;">3</span>
                     </div>
                 </div>
@@ -328,16 +328,15 @@
             <div class="item" style="width: 300px;">
                 <div class="card pb-4">
                     <div class="card-body text-center px-4" style="height: 18rem">
-                        <img src="{{ url('/images/icons/comers/4.jpeg') }}" alt="4" class="w-50 mx-auto">
-                        <p class="fs-5 fw-bold text-center">BAYAR</p>
+                        <img src="{{ url('/images/icons/hub.png') }}" alt="6" class="w-50 mx-auto mb-3">
+                        <p class="fs-5 fw-bold text-center">KONFIRMASI</p>
                         <p class="card-text">
-                            Selanjutnya kamu akan dihadapkan untuk proses konfrimasi pembayaran untuk mengikuti
-                            pelatihan pemula baru
+                            Pihak kami akan mengkonfirmasi pendaftaranmu dan menjelaskan prosedur pelatihan yang kamu pilih
                         </p>
                     </div>
                     <div class="py-2">
                         <span
-                            class="d-flex align-items-center justify-content-center fs-5 mx-auto bg-primary text-white fw-bold rounded-circle"
+                            class="d-flex align-items-center justify-content-center fs-5 mx-auto alert-danger text-danger fw-bold rounded-circle"
                             style="width: 46px; height: 46px;">4</span>
                     </div>
                 </div>
@@ -345,59 +344,25 @@
             <div class="item" style="width: 300px;">
                 <div class="card pb-4">
                     <div class="card-body text-center px-4" style="height: 18rem">
-                        <img src="{{ url('/images/icons/comers/5.jpeg') }}" alt="5" class="w-50 mx-auto">
-                        <p class="fs-5 fw-bold text-center">KARTU</p>
-                        <p class="card-text">
-                            Kamu akan mendapatkan kartu akses untuk mengikuti program pelatihan yang disediakan
-                        </p>
-                    </div>
-                    <div class="py-2">
-                        <span
-                            class="d-flex align-items-center justify-content-center fs-5 mx-auto bg-primary text-white fw-bold rounded-circle"
-                            style="width: 46px; height: 46px;">5</span>
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="width: 300px;">
-                <div class="card pb-4">
-                    <div class="card-body text-center px-4" style="height: 18rem">
-                        <img src="{{ url('/images/icons/comers/6.jpeg') }}" alt="6" class="w-50 mx-auto">
-                        <p class="fs-5 fw-bold text-center">UJIAN</p>
-                        <p class="card-text">
-                            Setelah mendapatkan kartu akses kamu dapat menggunakannya untuk mengikuti program pelatihan
-                            yang telah kamu pilih
-                        </p>
-                    </div>
-                    <div class="py-2">
-                        <span
-                            class="d-flex align-items-center justify-content-center fs-5 mx-auto bg-primary text-white fw-bold rounded-circle"
-                            style="width: 46px; height: 46px;">6</span>
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="width: 300px;">
-                <div class="card pb-4">
-                    <div class="card-body text-center px-4" style="height: 18rem">
-                        <img src="{{ url('/images/icons/comers/7.jpeg') }}" alt="7" class="w-50 mx-auto">
+                        <img src="{{ url('/images/icons/studen.png') }}" alt="7" class="w-50 mx-auto mb-3">
                         <p class="fs-5 fw-bold text-center">SELESAI</p>
                         <p class="card-text">
-                            Jika ujian kamu lulus maka kamu akan mendapatkan sertifikat sesuai program pelatihan yang
-                            kamu pilih
+                            Selamat kamu sudah berhasil daftar dan menjadi bagian dari kami
                         </p>
                     </div>
                     <div class="py-2">
                         <span
-                            class="d-flex align-items-center justify-content-center fs-5 mx-auto bg-primary text-white fw-bold rounded-circle"
-                            style="width: 46px; height: 46px;">7</span>
+                            class="d-flex align-items-center justify-content-center fs-5 mx-auto alert-danger text-danger fw-bold rounded-circle"
+                            style="width: 46px; height: 46px;">5</span>
                     </div>
                 </div>
             </div>
         </div>
         <div class="d-flex d-md-none justify-content-center justify-content-md-end ms-auto">
-            <button class="customPrevBtn btn btn-outline-primary p-2 me-2" type="button">
+            <button class="customPrevBtn btn btn-outline-danger p-2 me-2" type="button">
                 <i class="fas fa-angle-left fa-lg fa-fw"></i>
             </button>
-            <button class="customNextBtn btn btn-outline-primary p-2" type="button">
+            <button class="customNextBtn btn btn-outline-danger p-2" type="button">
                 <i class="fas fa-angle-right fa-lg fa-fw"></i>
             </button>
         </div>

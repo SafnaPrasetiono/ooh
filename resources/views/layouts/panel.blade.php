@@ -130,7 +130,7 @@
                                 <p>Website ooh.co.id dibuat untuk memberikan kemudahan bagi calon pekerja migran Indonesia khususnya Bali untuk memberikan informasi terbaru seputar Job di Australia dan mempermudah dalam pendaftaran kandidat mengenai penyaluran pekerja migran ke Australia dari Provinsi Bali, Nasional, maupun Internasional</p>
                                 <div class="d-flex mb-2">
                                     <i class="fas fa-phone fa-fw"></i>
-                                    <p class="mb-0 ms-2">+62 813-1173-6178</p>
+                                    <p class="mb-0 ms-2">+62 821-4605-5947</p>
                                 </div>
                                 <div class="d-flex mb-2">
                                     <i class="fas fa-envelope fa-fw"></i>
@@ -208,7 +208,7 @@
     </footer>
 
     <div class="menu-balloon">
-        <a class="btn btn-menu-fixed" href="https://api.whatsapp.com/send?phone=6281311736178" target="_blank">
+        <a class="btn btn-menu-fixed" href="https://api.whatsapp.com/send?phone=6282146055947" target="_blank">
             <i class="fab fa-whatsapp fa-2x fa-fw"></i>
         </a>
     </div>

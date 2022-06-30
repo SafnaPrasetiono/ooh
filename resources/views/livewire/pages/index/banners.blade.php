@@ -3,7 +3,7 @@
         <div class="splide__track">
             <ul class="splide__list">
                 @foreach ($data as $item)
-                <li class="splide__slide">
+                <li class="splide__slide" data-splide-interval="100">
                     <div class="card d-none d-md-block text-white rounded-0 border-0">
                         <div class="ratio ratio-21x9">
                             <div class="img-banners"
@@ -55,7 +55,10 @@
 
     <script>
         document.addEventListener( 'DOMContentLoaded', function() {
-          var splide = new Splide('#splide1');
+          var splide = new Splide('#splide1', {
+            type   : 'loop',
+            autoplay : 'play'
+          });
           splide.mount();
         } );
     </script>
