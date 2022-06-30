@@ -3,7 +3,7 @@
         <div class="splide__track">
             <ul class="splide__list">
                 @foreach ($data as $item)
-                <li class="splide__slide" data-splide-interval="4800">
+                <li class="splide__slide" data-splide-interval="6500">
                     <div class="card d-none d-md-block text-white rounded-0 border-0">
                         <div class="ratio ratio-21x9">
                             <div class="img-banners"
